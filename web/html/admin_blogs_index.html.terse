@@ -1,0 +1,17 @@
+@@layout.html
+
+[content]
+  .container
+    table.blog
+      thead > tr
+        th Name
+        th Authors
+        th Post Count
+        th Actions
+      tbody
+        &.Blogs
+          tr
+            td= .Name
+            td Nobody
+            td 0
+            td View Edit Delete

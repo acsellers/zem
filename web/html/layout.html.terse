@@ -1,0 +1,10 @@
+!!
+html
+  head
+    script type="text/javascript" src="/assets/jquery.js"
+    script type="text/javascript" src="/assets/bootstrap.js"
+    script type="text/javascript" src="/assets/app.js"
+    link rel="stylesheet" href="/assets/bootstrap.css"
+    link rel="stylesheet" href="/assets/app.css"
+  body
+    @content

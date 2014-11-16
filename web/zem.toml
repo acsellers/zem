@@ -1,0 +1,14 @@
+# Type of database system
+DBType = "postgres"
+# Host localhost or an IP address
+DBHost = "localhost"
+# DBPort = "5432"
+# Username to login
+DBUser = "postgres"
+# Password to login
+DBPass = "postgres"
+# Database to user
+DBName = "zem"
+
+# HashSecret, change before production
+HashSecret = "9843ujiung9ungf9efjaw98wmca94ruc843qrcnq9834cuqp9843ucnr98qrucq"

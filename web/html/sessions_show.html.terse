@@ -1,0 +1,14 @@
+@@layout.html
+
+[content]
+  .container > .row
+    form role="form" action="/admin/sessions" method="post"
+      .form-group
+        label for="username" Email
+        input.form-control type="text" name="username" placeholder="Enter email"
+
+      .form-group
+        label for="password" Password
+        input.form-control type="password" name="password" placeholder="Password" minlength="8"
+
+      button.btn.btn-default type="submit" Login
